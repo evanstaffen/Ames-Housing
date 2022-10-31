@@ -28,34 +28,57 @@ A baseline model was created first based on which predictor has the highest corr
 Five models were created for this project. Ultimately, the 4th model did end up being the best predictor. Below shows the MAE, RMSE and R2 values for each model (except the 1st model)
 
 The correlation coefficients were as follows:
+
 Only sqft_living
+
 1st model R2: 0.534
 
+
 All predictor variables, encoding nominal and categorical variables
+
 2nd model R2: 0.663 
+
 2nd model test R2: 0.667
+
 MAE: 116395.59
+
 RMSE: 164150.50
 
+
 Encoding zip codes
+
 3rd model R2: 0.867
+
 3rd model test R2: 0.866
+
 MAE: 69883.59
+
 RMSE: 104065.81
 
+
 Applying log transformation to price
+
 4th model R2: 0.888
+
 4th model test R2: 0.874
+
 MAE: 61646.16
+
 RMSE: 107207.96
 
+
 Remove multicollinearity by not using all sqft columns
+
 5th model R2: 0.882
+
 5th model test R2: 0.877
+
 MAE: 63776.51
+
 RMSE: 113147.92
 
 ## Model 2 and 5 Resdiual plots
+
 ![Model2Distplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model2Distplot.png)
 
 ![Model5Distplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model5Distplot.png)
@@ -69,7 +92,8 @@ RMSE: 113147.92
 The correlation coeficient increased from 0.663 all the way to 0.882, with a final RMSE (or average error) of $113,000. The final model is clearly a much better predictor of the housing prices in the King County suburb area. The last model was picked over the fourth model because it excluded the collinear variables and the training and test correlation coefficients were closer to one another. 
 
 ## Conclusions + Recommendations
-<img width="518" alt="Screen Shot 2022-10-30 at 11 12 34 PM" src="https://user-images.githubusercontent.com/113449546/198924727-76779499-e99b-416b-a591-beda509b34a0.png">
+
+![CONCLUSION](https://user-images.githubusercontent.com/113449546/198924865-ff17911b-8823-445d-9d40-34556e8dd784.png)
 
 •	King County is an affordable place for the Johnson’s to move to
 
