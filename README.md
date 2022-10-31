@@ -57,11 +57,15 @@ RMSE: 113147.92
 
 ## Comparing the 2nd and 5th models
 Model 2:
+
 ![Model2Distplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model2Distplot.png)
+
 ![Model2QQplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model2QQplot.png)
 
 Model 5:
+
 ![Model5Distplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model5Distplot.png)
+
 ![Model5QQplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model5QQplot.png)
 
 The correlation coeficient increased from 0.663 all the way to 0.882, with a final RMSE (or average error) of $113,000. The final model is clearly a much better predictor of the housing prices in the King County suburb area. The last model was picked over the fourth model because it excluded the collinear variables and the training and test correlation coefficients were closer to one another. 
@@ -74,11 +78,13 @@ The correlation coeficient increased from 0.663 all the way to 0.882, with a fin
 •	Try finding data pertaining to the nearest towns/attractions, quality of schools and hospitals
 •	Find data more recently than 2014-2015
 
+
+
+
+
 ├── data
 ├── images
 ├── .gitignore
 ├── Housing Market Analysis Slides.pdf
 ├── Housing Market Linear Regression.ipynb
 └── README.md
-
-![image](https://user-images.githubusercontent.com/113449546/198918449-46c5f4ad-a7d8-4dae-9e08-143290ef08f8.png)
