@@ -12,13 +12,21 @@ I used the King County House Sales dataset for this analysis, which can be found
 
 ## Data Cleaning and Preparation
 The first step I took was to scan through the dataset and see if there were any significant missing values or errors within it. 
-•	Columns with outliers/imputation errors that were replaced or dropped
-o	bedrooms, price, sqft_basement, waterfront, yr_renovated
+
+• Columns with outliers/imputation errors that were replaced or dropped
+
+- bedrooms, price, sqft_basement, waterfront, yr_renovated
+
 •	The date column was separated into day, month and year
-o	This ultimately didn’t end up proving to be significant
+
+- This ultimately didn’t end up proving to be significant
+
 •	All columns containing sqft in their name were changed from integers to floats, while bathrooms and floors were changed from objects to integers
+
 •	The grade column was split into a rating column and condition column
+
 •	All zip codes that are in Seattle were dropped from this analysis
+
 •	The nominal (waterfront, zip codes) and ordinal variables (view,condition)
 
 ## Methods
