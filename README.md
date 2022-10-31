@@ -55,16 +55,14 @@ Remove multicollinearity by not using all sqft columns
 MAE: 63776.51
 RMSE: 113147.92
 
-## Comparing the 2nd and 5th models
-Model 2:
-
+## Model 2 and 5 Resdiual plots
 ![Model2Distplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model2Distplot.png)
 
-![Model2QQplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model2QQplot.png)
-
-Model 5:
-
 ![Model5Distplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model5Distplot.png)
+
+
+## Model 2 and 5 QQ plots
+![Model2QQplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model2QQplot.png)
 
 ![Model5QQplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model5QQplot.png)
 
@@ -81,7 +79,7 @@ The correlation coeficient increased from 0.663 all the way to 0.882, with a fin
 
 
 
-
+## Repository Structure
 ├── data
 ├── images
 ├── .gitignore
