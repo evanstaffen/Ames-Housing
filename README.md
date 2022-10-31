@@ -103,11 +103,13 @@ The correlation coeficient increased from 0.663 all the way to 0.882, with a fin
 
 <img width="515" alt="Screen Shot 2022-10-30 at 11 38 29 PM" src="https://user-images.githubusercontent.com/113449546/198926156-860a8b13-60df-4cc3-badb-908674438da6.png">
 
-•	King County is an affordable place for the Johnson’s to move to
+•	King County is an affordable place for the Johnson’s to move to, with only 8 zip codes outside of Seattle having an average price beyond their budget
 
 •	In fact, they may be able to get a house even cheaper than they were expecting
 
 ## Next Steps
 •	Try finding data pertaining to the nearest towns/attractions, quality of schools and hospitals
 
-•	Find data more recently than 2014-2015, see how the market has changed since COVID started.
+•	Find data more recently than 2014-2015
+
+• See how the market and/or zip codes have changed since COVID started.
