@@ -69,20 +69,13 @@ RMSE: 113147.92
 The correlation coeficient increased from 0.663 all the way to 0.882, with a final RMSE (or average error) of $113,000. The final model is clearly a much better predictor of the housing prices in the King County suburb area. The last model was picked over the fourth model because it excluded the collinear variables and the training and test correlation coefficients were closer to one another. 
 
 ## Conclusions + Recommendations
+<img width="518" alt="Screen Shot 2022-10-30 at 11 12 34 PM" src="https://user-images.githubusercontent.com/113449546/198924727-76779499-e99b-416b-a591-beda509b34a0.png">
+
 •	King County is an affordable place for the Johnson’s to move to
+
 •	In fact, they may be able to get a house even cheaper than they were expecting
 
 ## Next Steps
 •	Try finding data pertaining to the nearest towns/attractions, quality of schools and hospitals
+
 •	Find data more recently than 2014-2015
-
-
-
-
-## Repository Structure
-├── data
-├── images
-├── .gitignore
-├── Housing Market Analysis Slides.pdf
-├── Housing Market Linear Regression.ipynb
-└── README.md
