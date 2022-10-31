@@ -42,6 +42,10 @@ MAE: 116395.59
 
 RMSE: 164150.50
 
+## Model 2 Resdiual plot
+
+![Model2Distplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model2Distplot.png)
+
 
 # 3rd Model -- Encoding zip codes
 
@@ -76,13 +80,9 @@ MAE: 63776.51
 RMSE: 113147.92
 
 
-## Model 2 and 5 Resdiual plots
-
-![Model2Distplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model2Distplot.png)
+## Model 5 Resdiual plot
 
 ![Model5Distplot.png](https://github.com/evanstaffen/Ames-Housing/blob/main/Images/Model5Distplot.png)
-
-
 
 ## Model 5 QQ Plot
 
